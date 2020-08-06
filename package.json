@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/diego-machado/node-tdd-typescript-study-case/issues"
   },
-  "homepage": "https://github.com/diego-machado/node-tdd-typescript-study-case#readme"
+  "homepage": "https://github.com/diego-machado/node-tdd-typescript-study-case#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^2.4.4"
+  }
 }
