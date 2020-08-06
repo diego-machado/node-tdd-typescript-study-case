@@ -1,0 +1,1 @@
+Study case about DDD
