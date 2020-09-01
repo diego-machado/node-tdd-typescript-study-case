@@ -4,8 +4,8 @@
   "description": "Study case about DDD",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest",
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests",
     "check": "npm-check -s -u"
   },
   "repository": {
