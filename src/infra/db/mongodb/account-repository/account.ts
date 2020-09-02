@@ -9,7 +9,7 @@ export class AccountMongoRepository implements AddAccountRepository {
     const result = await accountConnection.insertOne(accountData)
 
     const account = result.ops[0]
-    const { _id, accountWithoutId } = account
+    const { _id, ...accountWithoutId } = account
 
     return Object.assign({}, accountWithoutId, { id: _id })
   }
