@@ -6,8 +6,8 @@ export class CompareFieldsValidation implements Validation {
   private readonly fieldtoCompareName: string
 
   constructor (fieldName: string, fieldtoCompareName: string) {
-    this.fieldName = fieldtoCompareName
-    this.fieldtoCompareName = fieldName
+    this.fieldName = fieldName
+    this.fieldtoCompareName = fieldtoCompareName
   }
 
   validate (input: any): Error {
