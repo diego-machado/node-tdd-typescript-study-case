@@ -2,13 +2,10 @@ import { InvalidParamError } from '../../errors'
 import { Validation } from '../../protocols/validation'
 
 export class CompareFieldsValidation implements Validation {
-  private readonly fieldName: string
-  private readonly fieldtoCompareName: string
-
-  constructor (fieldName: string, fieldtoCompareName: string) {
-    this.fieldName = fieldName
-    this.fieldtoCompareName = fieldtoCompareName
-  }
+  constructor (
+    private readonly fieldName: string,
+    private readonly fieldtoCompareName: string
+  ) { }
 
   validate (input: any): Error {
     console.log(input)
