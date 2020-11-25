@@ -1,6 +1,6 @@
 {
   "name": "node-tdd-typescript-study-case",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Study case about DDD",
   "main": "index.js",
   "scripts": {
