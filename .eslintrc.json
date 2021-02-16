@@ -9,6 +9,7 @@
     "@typescript-eslint/comma-spacing": "off",
     "@typescript-eslint/method-signature-style": "off",
     "@typescript-eslint/return-await": "off",
-    "@typescript-eslint/retrict-template-expressions": "off"
+    "@typescript-eslint/retrict-template-expressions": "off",
+    "@typescript-eslint/no-misused-promises": "off"
   }
 }
